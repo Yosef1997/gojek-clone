@@ -12,9 +12,9 @@ const bottomNavigatior = () => {
     <Tab.Navigator
       initialRouteName="Beranda"
       tabBarOptions={{
-        activeTintColor: '#e91e63',
-        labelStyle: { fontSize: 12 },
-        style: { backgroundColor: 'powderblue' },
+        activeTintColor: '#FFFF',
+        labelStyle: { fontSize: 14, fontWeight: 'bold' },
+        style: { backgroundColor: '#07a446' },
       }}
     >
       <Tab.Screen
